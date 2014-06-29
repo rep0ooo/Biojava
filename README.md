@@ -1,6 +1,6 @@
-Biojav-atest
+Biojava-test
 =======
-Cufflinks　output gtf....(transcript.gtf)
+Cufflinks output gtf....(transcript.gtf)
 this repository detect splicing variant between 2gtf files.(ex.Normal.gtf and Mutation.gtf)
 this project not complete.,
 
