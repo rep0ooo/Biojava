@@ -12,7 +12,7 @@ public class Read_GFF {
 public static void main(String[] args) throws Exception {
 
 FeatureList features =(FeatureList)
-GFF3Reader.read("読み込みたいgtf名.gtf");
+GFF3Reader.read("読み込みたいgtf名/path.gtf");
 Iterator<FeatureI> featureIterator = features.iterator();
 
 FeatureI row = null;
