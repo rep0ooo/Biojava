@@ -63,30 +63,21 @@ public class SpllicingVariant2 {
 		System.out.println(KI2);
 		// すべてのトランスクリプトの間で比較したい
 
-		while (featureIterator1.hasNext()) {
 
-
-		for (String key : WT2.keySet()) {
-			WT_traloc = WT2.get(key);
-		System.out.println(WT_traloc);
-		}
-
-		System.out.println("desfawdaw");
-
+		System.out.println();
+	}}
 
 // data1(A)のときdataKI(最初から最後まで)のdata1(最初から最後まで)の総当り
 
-				if(
-				WT_traloc.overlaps(KI_tranloc)){
-		System.out.println(WT.get(WT_traloc));
-	//}
-		}}
+
+
+
 
 
 
 
 	//}
-		}}
+
 	//
 
 
@@ -105,11 +96,9 @@ public class SpllicingVariant2 {
 // データベースで書いたほうが早いか
 // System.out.println(data3); }
 
-// MAPはkey重複を許さない.(絶対不可能).上書きされる
+// MAPはkey重複を許さない.上書きされる
 // HashMap<Collection<String>, Collection<String>> WT = new HashMap<>();
 // WT.put(features.attributeValues("gene_id"),
 // features.attributeValues("transcript_id"));
-// なぜかgene_idがnull,どんな形while構文、for文で抽出してもnull
-// バグ？
 // System.out.println(WT);
 
